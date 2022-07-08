@@ -1,23 +1,15 @@
-.bg-color{
-    background-color:$colorClinica;
-    .navbar-brand{
-        animation-name: aparecer;
-        animation-duration: 2s;
-    }
-    .nav-link{
-        color: white;
-        font-family:"Ubuntu";
-    }
+
+
+.navbar-brand{
+    animation-name: map-get($estilos , nombreAnimacion) ;
+    animation-duration:  map-get($estilos , duracionAnimacion );
+}
+.nav-link{
+    color: map-get($estilos , colorFuente );
+    font-family: map-get($estilos , familiaFuente );
 }
 
-.bg-colorFCM{
-    background-color: $colorFundacion;
-    .navbar-brand{
-        animation-name: aparecer;
-        animation-duration: 2s;
-    }
-    .nav-link{
-        color: white;
-        font-family:"Ubuntu";
-    }
-}
+
+    
+
+

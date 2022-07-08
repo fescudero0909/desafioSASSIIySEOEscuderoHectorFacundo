@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box; }
 
+.bg-color-fundi {
+  background-color: #ab0132; }
+
+.bg-color-clinica {
+  background-color: #006633; }
+
 @keyframes aparecer {
   0% {
     opacity: 0; }
@@ -11,31 +17,23 @@
     opacity: 1; } }
 
 .btn {
+  background-color: #006633;
   width: 100px;
   color: white;
   border-radius: 5%; }
 
 .btnFundi {
+  background-color: #ab0132;
   color: white;
   border-radius: 10%; }
 
-.bg-color {
-  background-color: #006633; }
-  .bg-color .navbar-brand {
-    animation-name: aparecer;
-    animation-duration: 2s; }
-  .bg-color .nav-link {
-    color: white;
-    font-family: "Ubuntu"; }
+.navbar-brand {
+  animation-name: aparecer;
+  animation-duration: 2s; }
 
-.bg-colorFCM {
-  background-color: #ab0132; }
-  .bg-colorFCM .navbar-brand {
-    animation-name: aparecer;
-    animation-duration: 2s; }
-  .bg-colorFCM .nav-link {
-    color: white;
-    font-family: "Ubuntu"; }
+.nav-link {
+  color: white;
+  font-family: "Ubuntu"; }
 
 main .titulo {
   font-family: "Ubuntu"; }
