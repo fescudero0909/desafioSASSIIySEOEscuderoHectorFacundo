@@ -1,0 +1,23 @@
+.bg-color{
+    background-color:$colorClinica;
+    .navbar-brand{
+        animation-name: aparecer;
+        animation-duration: 2s;
+    }
+    .nav-link{
+        color: white;
+        font-family:"Ubuntu";
+    }
+}
+
+.bg-colorFCM{
+    background-color: $colorFundacion;
+    .navbar-brand{
+        animation-name: aparecer;
+        animation-duration: 2s;
+    }
+    .nav-link{
+        color: white;
+        font-family:"Ubuntu";
+    }
+}

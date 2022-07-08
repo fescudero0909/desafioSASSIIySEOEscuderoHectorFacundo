@@ -1,0 +1,30 @@
+main{
+    .titulo{
+        font-family:"Ubuntu";
+    }
+    .parrafo{
+        font-family:"Ubuntu";
+    }
+    .frase{
+        font-family: "Ubuntu";
+        font-style: italic;
+    }
+}
+
+
+.bg-colorCursos{
+    background-color: #d5d2d2;
+}
+main{
+    font-family: "Ubuntu";
+    .objeto{
+        background-color: #d5d2d2;
+    }
+}
+
+.fotoCurso{
+    transition: all 1s;
+    &:hover{
+        transform: translate(0px,-15px) scale(1.1) ;
+    }
+}
