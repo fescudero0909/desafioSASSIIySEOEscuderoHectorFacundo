@@ -1,8 +1,9 @@
 .btn{
     @include propiedadesBotones(white, $colorClinica )
     width: 100px;
-    border-radius: 5%;
+    border-radius: 10%;
 }
+
 .btnFundi{
     @include propiedadesBotones(white, $colorFundacion )
     @extend .btn; 
