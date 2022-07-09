@@ -1,12 +1,12 @@
 main{
     .titulo{
-        font-family:"Ubuntu";
+        font-family:map-get($estilos , familiaFuente );
     }
     .parrafo{
-        font-family:"Ubuntu";
+        font-family: map-get($estilos , familiaFuente );
     }
     .frase{
-        font-family: "Ubuntu";
+        font-family: map-get($estilos , familiaFuente );
         font-style: italic;
     }
 }
@@ -16,7 +16,7 @@ main{
     background-color: #d5d2d2;
 }
 main{
-    font-family: "Ubuntu";
+    font-family: map-get($estilos , familiaFuente );
     .objeto{
         background-color: #d5d2d2;
     }

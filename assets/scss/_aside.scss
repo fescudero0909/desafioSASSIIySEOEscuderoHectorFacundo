@@ -1,5 +1,5 @@
 aside{
-    font-family: "Ubuntu";
+    font-family: map-get($estilos , familiaFuente );
     .areas{
         font-style: oblique;
         list-style: none;

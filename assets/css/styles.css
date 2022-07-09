@@ -16,16 +16,15 @@
   100% {
     opacity: 1; } }
 
-.btn {
+.btn, .btnFundi {
+  color: white;
   background-color: #006633;
   width: 100px;
-  color: white;
   border-radius: 5%; }
 
 .btnFundi {
-  background-color: #ab0132;
   color: white;
-  border-radius: 10%; }
+  background-color: #ab0132; }
 
 .navbar-brand {
   animation-name: aparecer;

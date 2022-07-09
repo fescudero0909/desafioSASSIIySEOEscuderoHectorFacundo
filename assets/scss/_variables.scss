@@ -19,3 +19,8 @@ $estilos:(
     }
 }
 
+@mixin propiedadesBotones ($colorLetra , $colorFondo) {
+    color: $colorLetra;
+    background-color: $colorFondo;
+}
+
